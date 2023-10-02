@@ -1,0 +1,13 @@
+C1_s21_SimpleBash,,250
+C2_s21_String+,C1_s21_SimpleBash,500
+C3_s21_decimal,C2_s21_String+,350
+C4_s21_matrix,C3_s21_decimal,200
+C5_s21_Calc,C4_s21_matrix,500
+C6_s21_Viewer,C5_s21_Calc,750
+CPP1_s21_matrix,C6_s21_Viewer,200
+CPP2_s21_containers,CPP1_s21_matrix,350
+DO1_Linux,C3_s21_decimal,300
+DO2_Linux_Network,DO1_Linux,250
+DO3_Linux_Monitoring,DO2_Linux_Network,350
+A1_Maze,CPP2_s21_containers,300
+A2_Simple_Navigator,A1_Maze,400
